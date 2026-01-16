@@ -3,3 +3,8 @@ description: "Documentando mi viaje en programación y tecnología"
 baseurl: ""  #cambiar luego si no está en raíz.
 url: "https://nelsitoprogramador.github.io"
 theme: minima
+
+collections:
+  technical_terms:
+    output: true
+    permalink: /languages/:path/
